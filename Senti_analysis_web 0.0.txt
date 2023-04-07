@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Sentimental Analysis</title>
+    <style>
+      /* Global styles */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        color: #333333;
+      }
+
+      h1, h2 {
+        margin: 0;
+      }
+
+      /* Header styles */
+      header {
+        background-color: #005577;
+        color: #ffffff;
+        padding: 20px;
+      }
+
+      /* Navigation styles */
+      nav {
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+        padding: 10px;
+      }
+
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+
+      nav a {
+        color: #333333;
+        text-decoration: none;
+        padding: 5px 10px;
+      }
+
+      nav a:hover {
+        background-color: #cccccc;
+      }
+
+      /* Main content styles */
+      main {
+        padding: 20px;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+        margin: 10px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      input[type="text"] {
+        padding: 5px;
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+
+      button {
+        background-color: #005577;
+        color: #ffffff;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #003955;
+      }
+
+      p {
+        margin-bottom: 10px;
+      }
+
+      .positive {
+        color: #008000;
+      }
+
+      .negative {
+        color: #ff0000;
+      }
+
+      .neutral {
+        color: #333333;
+      }
+
+      /* Footer styles */
+      footer {
+        background-color: #cccccc;
+        color: #ffffff;
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Sentimental Analysis</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Welcome to my web page</h2>
+      <p>This is a web page for performing sentimental analysis.</p>
+      <form id="sentiment-form">
+        <label for="text-input">Enter some text:</label>
+        <input type="text" id="text-input" name="text-input">
+        <button type="submit">Analyze</button>
+      </form>
+      <div id="result">
+        <p id="sentiment"></p>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2023 Sentimental Analysis</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs
